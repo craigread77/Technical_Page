@@ -15,6 +15,9 @@ body {
     background-color: rgb(153, 170, 204);
     border-right: solid 1px gray;
     z-index: 0;
+    overflow-y: scroll;
+    top: 0;
+    bottom: 0;
     
 }
 
