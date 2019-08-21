@@ -28,8 +28,8 @@
                     <li><a class="nav-link" href="#Nav">Nav</a></li>
                     <li><a class="nav-link" href="#Section">Section</a></li>
                     <li><a class="nav-link" href="#Summary">Summary</a></li>
-                    <li><a class="nav-link" href="#Time">Time</a></li>
-                    <li><a class="nav-link" href="#"></a></li>
+                    <li class="add-bottom-border"><a class="nav-link" href="#Time">Time</a></li>
+                    
                     
                 </ul>
             </div> 
@@ -40,7 +40,7 @@
         <main id="main-doc">
             <section class="main-section" id="Introduction">
                 <h3 class="section-header">Introduction</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p>HTML5 is the latest evolution of the standard that defines HTML. The term represents two different concepts. It is a new version of the language HTML, with new elements, attributes, and behaviors, and a larger set of technologies that allows the building of more diverse and powerful Web sites and applications. This set is sometimes called HTML5 & friends and often shortened to just HTML5.</p>
                  
 <pre>
 <code>
@@ -58,7 +58,8 @@
 
             <section class="main-section" id="Article">
                 <h3 class="section-header">Article</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p>The <strong>article</strong> tag specified independant, self-contained content.</p>
+                <p>An article should make sense on its own and it should be possible to distribute independantly from the rest of the site.</p>
 <pre>
 <code>
 &lt;article&gt;
@@ -110,15 +111,142 @@
             </section>
 
             <section class="main-section" id="Figure">
+                <h3 class="section-header">Figure</h3>
+                <p>The <strong>figure</strong> tag specifies self-contained content, like illustrations, diagrams, photos, code listings, etc. <br>While the content of the <strong>figure</strong> element is related to the main flow, its position is independent of the main flow, and if removed it should not affect the flow of the document.</p>
+<pre>
+<code>
+&lt;figure&gt;
+    &lt;img src="img_pulpit.jpg" alt="The Pulpit Rock" width="304" height="228"&gt;
+&lt;/figure&gt;
+</code>
+</pre>                
                 
-
-            </section>
-                
             </section>
 
+            <section class="main-section" id="Footer">
+                <h3 class="section-header">Footer</h3>
+                <p>A <strong>footer</strong> tag defines a footer for a document or section. A <strong>footer</strong> element should contain information about its containing element.</p>
+<pre>
+<code>
+&lt;footer&gt;
+    &lt;p&gt;Contact information: &lt;a href="mailto:someone@example.com"&gt;someone@example.com&lt;/a&gt;&lt;/p&gt;
+&lt;/footer&gt;
+</code>
+</pre>                
+            </section>
 
+            <section class="main-section" id="Header">
+                <h3 class="section-header">Header</h3>
+                <p>A <strong>header</strong> element respresents a container for introductory content or a set of navigational links. <br>Typically contains one or more heading elements and a logo or icon.</p>
+<pre>
+<code>
+&lt;header&gt;
+    &lt;img src="companylogo.png"&gt;
+    &lt;h1&gt;MAXIMUS LLC&lt;/h1&gt;
+&lt;/header&gt;
+</code>
+</pre>                
+            </section>
 
+            <section class="main-section" id="Main">
+                <h3 class="section-header">Main</h3>
+                <p>The <strong>main</strong> tag specifies the main content of a document.</p>
+                <p>The content inside the <strong>main</strong> element should be unique to the document. It should not contain any content that is repeated across documents such as sidebars, nav links, copyright information, site logos, and search forms.</p>
+                <br>
+                <p><strong>Note: </strong>There must not be more than one <strong>main</strong> element in a document. The <strong>main</strong> element must NOT be a descendant of an <strong>article</strong>, <strong>aside</strong>, <strong>footer</strong>, <strong>header</strong>, or <strong>nav</strong> element.</p>
+<pre>
+<code>
+&lt;main&gt;
+    &lt;h1&gt;Web Browsers&lt;/h1&gt;
+    &lt;p&gt;Google Chrome, Firefox, and Internet Explorer are the most used browsers today.&lt;/p&gt;
+    
+    &lt;article&gt;
+        &lt;h1&gt;Google Chrome&lt;/h1&gt;
+        &lt;p&gt;Google Chrome is a free, open-source web browser developed by Google,
+        released in 2008.&lt;/p&gt;
+    &lt;/article&gt;
+    
+    &lt;article&gt;
+        &lt;h1&gt;Internet Explorer&lt;/h1&gt;
+        &lt;p&gt;Internet Explorer is a free web browser from Microsoft, released in 1995.&lt;/p&gt;
+    &lt;/article&gt;
+    
+    &lt;article&gt;
+        &lt;h1&gt;Mozilla Firefox&lt;/h1&gt;
+        &lt;p&gt;Firefox is a free, open-source web browser from Mozilla, released in 2004.&lt;/p&gt;
+    &lt;/article&gt;
+&lt;/main&gt;
+</code>
+</pre>                
+            </section>
 
+            <section class="main-section" id="Mark">
+                <h3 class="section-header">Mark</h3>
+                <p>The <strong>mark</strong> tag defines highlighted or "marked" text. </p>
+<pre>
+<code>
+&lt;p&gt;Do not forget to buy &lt;mark&gt;milk&lt;/mark&gt; today&lt;/p&gt;
+</code>    
+</pre>
+            </section>
+
+            <section class="main-section" id="Nav">
+                <h3 class="section-header">Nav</h3>
+                <p>The <strong>nav</strong> tag defines a group of navigation links. This element is intended only for major blocks of navigation, not for any links on the site.</p>
+<pre>
+<code>
+&lt;nav&gt;
+    &lt;a href="/html/"&gt;HTML&lt;/a&gt;
+    &lt;a href="/css/"&gt;CSS&lt;/a&gt;
+    &lt;a href="/js/"&gt;JavaScript&lt;/a&gt;
+    &lt;a href="/jquery/"&gt;jQuery&lt;/a&gt;
+&lt;/nav&gt;  
+</code>    
+</pre>
+            </section>
+
+            <section class="main-section" id="Section">
+                <h3 class="section-header">Section</h3>
+                <p>The <strong>section</strong> tag defines sections in a document, such as chapters, headers, footers, or any other document sections.</p>
+<pre>
+<code>
+&lt;section&gt;
+    &lt;h1&gt;WWF&lt;/h1&gt;
+    &lt;p&gt;The World Wide Fund for Nature (WWF) is....&lt;/p&gt;
+&lt;/section&gt;
+</code>    
+</pre>
+            
+            </section>
+
+            <section class="main-section" id="Summary">
+                <h3 class="section-header">Summary</h3>
+                <p>The <strong>summary</strong> tag defines a visible heading for the <strong>details</strong> element. The heading can be clicked to view/hide the details.</p>
+<pre>
+<code>
+&lt;details&gt;
+    &lt;summary&gt;Copyright 1999-2014.&lt;/summary&gt;
+    &lt;p&gt; - by Refsnes Data. All Rights Reserved.&lt;/p&gt;
+    &lt;p&gt;All content and graphics on this web site are the property of the company Refsnes Data.&lt;/p&gt;
+&lt;/details&gt;
+</code>    
+</pre>
+            </section>
+
+            <section class="main-section" id="Time">
+                <h3 class="section-header">Time</h3>
+                <p>The <strong>time</strong> tag defines a human-readable date/time.</p>
+                <br>
+                <p>This element can also be used to encode dates and times in a machine-readable way so that the user agents can offer to add birthday reminders or scheduled events to the user's calendar</p>
+<pre>
+<code>
+&lt;p>We open at &lt;time>10:00&lt;/time> every morning.&lt;/p>
+&lt;p>I have a date on &lt;time datetime="2008-02-14 20:00">Valentines day&lt;/time>.&lt;/p>
+</code>    
+</pre>
+            
+
+            </section> 
 
         </main>
     </div>

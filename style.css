@@ -3,12 +3,16 @@
     padding: 0;
 }
 
+body {
+    background-color: rgb(236, 241, 255);
+}
+
 #sidebar {
     position: fixed;
     width: 240px;
     height: 100%;
     padding-top: 10px;
-    background-color: rgb(183, 182, 228);
+    background-color: rgb(153, 170, 204);
     border-right: solid 1px gray;
     z-index: 0;
     
@@ -33,6 +37,11 @@
     
 }
 
+.add-bottom-border {
+   border-bottom: solid 2px;
+    
+}
+
 #nav-title {
     font-family: Heebo;
     font-size: 25px;
@@ -44,7 +53,8 @@
 main {
     padding-top: 20px;
     margin-left: 260px;
-    margin-right: 50px;
+    margin-right: 100px;
+
 }
 
 .section-header {
@@ -72,7 +82,7 @@ code {
     padding-left: 10px;
     padding-right: 10px;
     padding-top: 10px;
-    background-color: rgb(87, 86, 158);
+    background-color: rgb(34, 67, 134);
     color: rgb(231, 231, 231);
     width: 300px;
     border-radius: 5px;
@@ -88,6 +98,10 @@ code {
     font-weight: bold;
     padding-bottom: 20px;
 
+}
+
+#sidebar li:hover {
+    background-color: rgb(201, 217, 250);
 }
 
 
